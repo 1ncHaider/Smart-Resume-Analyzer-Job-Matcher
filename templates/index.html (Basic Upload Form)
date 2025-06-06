@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Resume Analyzer</title>
+</head>
+<body>
+    <h1>Upload Resume and Job Description</h1>
+    <form action="/upload_resume" method="post" enctype="multipart/form-data">
+        <label>Resume:</label>
+        <input type="file" name="resume">
+        <button type="submit">Upload Resume</button>
+    </form>
+    <form action="/upload_job" method="post" enctype="multipart/form-data">
+        <label>Job Description:</label>
+        <input type="file" name="job">
+        <button type="submit">Upload Job</button>
+    </form>
+</body>
+</html>
